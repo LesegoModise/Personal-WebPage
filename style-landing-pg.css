@@ -1,0 +1,34 @@
+body {
+    /* background-color: bisque; */
+    background-image: url(beach\ background.jpeg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 2em;
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgb(220, 242, 245);
+    border: 3px solid rgb(8, 178, 201);
+    color: black;
+}
+
+.container {
+    
+}
+
+.menu {
+    color: black;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    background-color: rgb(220, 242, 245);
+    border: 3px solid rgb(8, 178, 201);
+}
+
+.menu :hover {
+    color: black;
+    background-color: beige;
+}

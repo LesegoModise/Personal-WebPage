@@ -1,0 +1,182 @@
+body {
+    background-color: #d4a373;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    color: beige;
+    border-color: beige;
+    border: 3px solid beige;
+}
+
+h2 {
+    margin: 1em;
+}
+
+h3 {
+    margin: 1em;
+    text-align: center;
+}
+
+h5 {
+    margin: 2em;
+}
+
+/* .personal {
+    padding: 1em;
+} */
+
+.introduction {
+    background-image: url(best-views-of-table-mountain.webp);
+    background-size: cover;
+    padding: 1em;
+    color:bisque;
+}
+
+.intropic {
+    width: 300px;
+    height: 300px;
+    padding: 1em;
+    border: 3px solid #d4a373;
+    border-radius: 3em;
+    justify-self: flex-end;
+}
+
+.name {
+    font-weight: bold;
+    font-size: xxx-large;
+    padding: 1em;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.destination {
+    background-color: #faedcd;
+}
+
+.destipic {
+    width: 300px;
+    height: 200px;
+    padding: 2em;
+}
+
+.description {
+    text-align: justify;
+    padding: 1em;
+}
+
+.trial {
+    display: table;
+    display: flex;
+}
+
+.trial .destipic {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.trial .description {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.language {
+    background-color: #fefae0;
+}
+
+.heading {
+    font-weight: bold;
+}
+
+.text {
+    font-weight: lighter;
+}
+
+.table {
+    width: 80%;
+    margin: 2em;
+}
+
+.subject {
+    background-color: #e9edc9;
+}
+
+.qualification {
+    font-weight: bold;
+    font-style: italic;
+    margin: 1em;
+}
+
+.subpic {
+    width: 300px;
+    height: 200px;
+    padding: 2em;
+    margin: 1em;
+}
+
+.subflex {
+    display: flex;
+}
+
+.history {
+    background-color: #ccd5ae;
+    display: flex;
+}
+
+.hispic,
+.hispic1 {
+    width: 300px;
+    height: 200px;
+    padding: 2em;
+}
+
+.hiscontainer {
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        display: flex;
+    }
+
+    .interest1 {
+        order: 1;
+    }
+
+    .history {
+        display: block;
+    }
+
+    .subflex {
+        display: block;
+    }
+
+    .layout {
+        margin: 1em;
+    }
+
+    .trial {
+        display: block;
+    }
+
+    .one {
+        display: inline-block;
+        margin-left: 5.3em;
+    }
+
+    .name {
+        margin-left: 0.35em;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        display: flex;
+    }
+}
+    
