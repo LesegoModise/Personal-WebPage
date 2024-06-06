@@ -23,9 +23,9 @@ h5 {
     margin: 2em;
 }
 
-/* .personal {
-    padding: 1em;
-} */
+.personal {
+    width: 100%;
+} 
 
 .introduction {
     background-image: url(best-views-of-table-mountain.webp);
