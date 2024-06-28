@@ -217,5 +217,10 @@ p {
     .one, .history, .subflex {
         display: flex;
     }
+
+    .hispic, .hispic1 {
+        width: 200px;
+        height: 100px;
+    }
 }
     
