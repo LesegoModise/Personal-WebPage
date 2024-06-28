@@ -51,7 +51,7 @@ h5 {
 }
 
 .one {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
 }
@@ -121,12 +121,12 @@ h5 {
 }
 
 .subflex {
-    display: flex;
+    /* display: flex; */
 }
 
 .history {
     background-color: #ccd5ae;
-    display: flex;
+    /* display: flex; */
 }
 
 .hispic,
@@ -195,8 +195,8 @@ p {
 
 @media screen and (min-width: 600px) {
     body {
-        display: flex;
-        flex-wrap: nowrap;
+        /* display: flex;
+        flex-wrap: nowrap; */
     }
 
     .subpic {
@@ -212,6 +212,10 @@ p {
         border-radius: 3em; */
         margin-right: 15em;
         justify-self: flex-end;
+    }
+
+    .one, .history, .subflex {
+        display: flex;
     }
 }
     
