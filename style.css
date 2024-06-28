@@ -116,8 +116,8 @@ h5 {
 .subpic {
     width: 300px;
     height: 200px;
-    padding: 2em;
-    margin: 1em;
+    /* padding: 2em;
+    margin: 1em; */
 }
 
 .subflex {
@@ -182,7 +182,9 @@ p {
     }
 
     .subpic {
-        margin-left: 5.5em;
+        /* margin-left: 5.5em; */
+        padding: 2em;
+        margin: 1em;
     }
 
     .intropic {
@@ -200,7 +202,7 @@ p {
     }
 
     .subpic {
-        padding-left: 9em;
+        padding-left: 3.5em;
     }
 
     .intropic {
@@ -216,11 +218,11 @@ p {
 
     .one, .history, .subflex {
         display: flex;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
     }
 
-    .hispic, .hispic1, .subpic {
-        width: 200px;
+    .hispic, .hispic1 {
+        width: 150px;
         height: 100px;
     }
 }
