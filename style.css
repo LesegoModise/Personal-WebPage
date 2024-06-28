@@ -140,7 +140,7 @@ h5 {
     display: flex;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 600px) {
     body {
         display: flex;
     }
@@ -187,7 +187,7 @@ h5 {
     }
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 600px) {
     body {
         display: flex;
     }
