@@ -34,14 +34,16 @@ body {
   background-attachment: scroll;
 }
 
-.intropic {
+/* .intropic {
   width: 300px;
   height: 300px;
-  padding: 1em;
-  border: 3px solid #d4a373;
+  /* margin-left: 13em;
+  margin-top: 1em; */
+  /* padding: 5em; */
+  /* border: 3px solid #d4a373;
   border-radius: 3em;
   justify-self: flex-end;
-}
+} */
 
 /* .one { This css did not move anything at all
   justify-content: space-between;
@@ -52,11 +54,11 @@ body {
   background-color: #faedcd;
 }
 
-.destipic {
+/* .destipic {
   width: 300px;
   height: 200px;
   padding: 2em;
-}
+} */
 
 .description {
   text-align: justify;
@@ -90,12 +92,12 @@ body {
   margin: 1em;
 }
 
-.subpic {
+/* .subpic {
   width: 300px;
   height: 200px;
   padding: 2em;
-  margin: 1em;
-}
+  margin: 1em; 
+} */
 
 .history {
   background-color: #ccd5ae;
@@ -118,13 +120,13 @@ body {
 
 /* TYPOGRAPHY */
 
-h1 {
+/* h1 {
   font-size: 2.5rem;
   text-align: center;
   color: beige;
   border-color: beige;
   border: 3px solid beige;
-}
+} */
 
 h2 {
   font-size: 2rem;
@@ -137,13 +139,12 @@ h3 {
   text-align: center;
 }
 
-h4 {
-  font-size: 1.125rem;
+/* .name {
   color: bisque;
   font-weight: bold;
   font-size: xxx-large;
   padding: 1em;
-}
+} */
 
 h5 {
   font-size: 1rem;
@@ -355,7 +356,59 @@ p {
     width: 100%;
     /* max-width: 60rem; */
   }
+
+  .name {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: beige;
+    border: 3px solid beige;
+    border-color: beige;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4.4em;
+    margin-left: 5em;
+  }
+
+  .desti, .his, .lang, .sub {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: beige;
+    border-color: beige;
+    border: 3px solid beige;
+    margin-top: 0.60em; 
+    margin-bottom: 0.60em; 
+  }
+
+  .destipic {
+    width: 300px;
+    height: 200px;
+    padding-left: 7em;
+  }
+
+  .subpic {
+    width: 300px;
+    height: 200px;
+    padding-left: 6em;
+    padding-bottom: 1em;
+  }
+
+  .intropic {
+    width: 300px;
+    height: 300px;
+    margin-left: 13em;
+    margin-top: 1em;
+    /* padding: 5em; */
+    /* border: 3px solid #d4a373;
+    border-radius: 3em; */
+    justify-self: flex-end;
+  }
   
+  h3 {
+    font-size: medium;
+    padding-left: 5em;
+  }
+
 }
 
 @media screen and (max-width:960px) {
@@ -367,4 +420,48 @@ p {
   .histext1 {
     float: right !important;
   }
+
+  .intropic {
+    width: 200px;
+    height: 200px;
+    padding-left: 1.80em;
+    padding-top: 2.5em;
+  }
+
+  .destipic, .subpic {
+    width: 250px;
+    height: 150px;
+    padding-left: 1.2em;
+  }
+
+  .hispic {
+    padding-top: 3.5em;
+    padding-left: 1em;
+  }
+
+  .hispic1 {
+    padding-top: 3.5em;
+  }
+
+  .name {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: beige;
+    border: 3px solid beige;
+    border-color: beige;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .desti, .his, .lang, .sub {
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    color: beige;
+    border-color: beige;
+    border: 3px solid beige;
+    margin-top: 0.60em; 
+    margin-bottom: 0.60em; 
+  }
+
 }

@@ -7,11 +7,12 @@ h1 {
     text-align: center;
     color: beige;
     border-color: beige;
-    border: 3px solid beige;
+    border: 3px solid beige;    
 }
 
 h2 {
     margin: 1em;
+    padding-top: 1em;
 }
 
 h3 {
@@ -24,7 +25,7 @@ h5 {
 }
 
 .personal {
-    width: 100%;
+    padding: 1em;
 } 
 
 .introduction {
@@ -34,19 +35,18 @@ h5 {
     color:bisque;
 }
 
-.intropic {
-    width: 300px;
-    height: 300px;
-    padding: 1em;
-    border: 3px solid #d4a373;
-    border-radius: 3em;
-    justify-self: flex-end;
-}
-
 .name {
     font-weight: bold;
     font-size: xxx-large;
-    padding: 1em;
+    /* padding: 1em; */
+    font-weight: bolder;
+    color: beige;
+    border: 3px solid beige;
+    border-color: beige;
+    font-weight: bold;
+    text-align: center;
+    /* margin-top: 4.4em; */
+    margin-left: 5em;
 }
 
 .one {
@@ -171,12 +171,39 @@ h5 {
 
     .name {
         margin-left: 0.35em;
+        margin-right: 2em;
+    }
+
+    .subpic {
+        margin-left: 5.5em;
+    }
+
+    .intropic {
+        width: 300px;
+        height: 300px;
+        padding-left: 5.5%;
+        margin-top: 1.5em;
     }
 }
 
 @media screen and (min-width: 600px) {
     body {
         display: flex;
+    }
+
+    .subpic {
+        padding-left: 9em;
+    }
+
+    .intropic {
+        width: 300px;
+        height: 300px;
+        /* padding: 1em; */
+        /* margin-left: 0.35em; */
+        /* border: 3px solid #d4a373;
+        border-radius: 3em; */
+        margin-right: 15em;
+        justify-self: flex-end;
     }
 }
     
