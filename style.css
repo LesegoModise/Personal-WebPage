@@ -219,9 +219,9 @@ p {
         flex-wrap: wrap;
     }
 
-    .hispic, .hispic1 {
-        width: 250px;
-        height: 150px;
+    .hispic, .hispic1, .subpic {
+        width: 200px;
+        height: 100px;
     }
 }
     
