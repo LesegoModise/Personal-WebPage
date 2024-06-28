@@ -1,6 +1,7 @@
 body {
     background-color: #d4a373;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: auto;
 }
 
 h1 {
@@ -25,7 +26,7 @@ h5 {
 }
 
 .personal {
-    padding: 1em;
+    padding: 2em;
 } 
 
 .introduction {
