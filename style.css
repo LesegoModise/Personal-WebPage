@@ -1,7 +1,7 @@
 body {
     background-color: #d4a373;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: auto;
+    /* padding: auto; */
 }
 
 h1 {
@@ -139,6 +139,12 @@ h5 {
 .hiscontainer {
     display: flex;
 }
+
+/* Override default margin for paragraphs */
+p {
+    margin: 0;
+    font-size: 16px;
+  }  
 
 @media screen and (max-width: 600px) {
     body {
