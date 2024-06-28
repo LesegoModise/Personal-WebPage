@@ -196,6 +196,7 @@ p {
 @media screen and (min-width: 600px) {
     body {
         display: flex;
+        flex-wrap: nowrap;
     }
 
     .subpic {
